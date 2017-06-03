@@ -1,4 +1,4 @@
-# refine_clean.csv.
+
 #age
 titanic$age[is.na(titanic$age)]=mean(titanic$age, na.rm = TRUE)
 View(titanic)
